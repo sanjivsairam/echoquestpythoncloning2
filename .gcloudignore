@@ -1,0 +1,28 @@
+# Ignore virtual env and compiled Python
+.venv/
+.voicecloningvenv/
+.voicecloningvenv2/
+.cleanvenv/
+__pycache__/
+*.pyc
+
+# Ignore temporary files
+uploads/
+temp_uploads/
+output/
+outputs_v2/
+separated/
+processed/
+enhanced/
+cloned/
+cleanenv/
+temp/
+logs/
+
+# Ignore OS/IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore checkpoints and models if you download at runtime
+checkpoints/
