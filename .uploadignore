@@ -1,0 +1,35 @@
+# Ignore Python virtual environments
+.venv/
+.voicecloningvenv/
+.voicecloningvenv2/
+.cleanvenv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temp and output folders
+uploads/
+temp_uploads/
+output/
+outputs_v2/
+separated/
+processed/
+enhanced/
+cloned/
+cleanenv/
+temp/
+logs/
+
+# Ignore checkpoints/models if downloaded during runtime
+checkpoints/
+
+# Ignore OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: Git folders
+.git/
